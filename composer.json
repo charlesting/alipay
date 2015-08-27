@@ -1,0 +1,31 @@
+{
+  "name": "charlestian/alipay",
+  "type": "library",
+  "description": "alipay for symfony2",
+  "keywords": ["pay", "alipay","zhifubao"],
+  "homepage": "http://koudaileyuan.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "charles tian",
+      "email": "gottwolf@gmail.com",
+      "homepage": "http://hchtin.com"
+    }
+  ],
+  "support": {
+    "forum": "http://koudaileyuan.com"
+  },
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4" : {
+      "CT\\Alipay\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.01-dev"
+    }
+  }
+}
